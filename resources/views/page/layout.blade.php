@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+{{--<html  lang="{{ str_replace('_', '-', app()->getLocale()) }}">--}}
 <head>
     <meta charset="utf-8">
     <title>Elotcom.uz - Mahallabay Portali
@@ -19,7 +19,6 @@
     <meta name="msapplication-TileColor" content="#603cba">
     <meta name="theme-color" content="#ffffff">
     <!-- Vendor Styles including: Font Icons, Plugins, etc.-->
-    <link rel="stylesheet" media="screen" href="">
     <link rel="stylesheet" media="screen" href="{{asset('html/elotcom.uz.io-main/css/vendor.min.css')}}">
     <!-- Main Theme Styles + Bootstrap-->
     <link rel="stylesheet" media="screen" href="{{asset('html/elotcom.uz.io-main/css/theme.min.css')}}">
@@ -96,7 +95,9 @@
                     <ul class="navbar-buttons d-inline-block align-middle">
                         <li class="d-block d-lg-none"><a href="#mobile-menu" data-toggle="offcanvas"><i class="fe-icon-menu"></i></a></li>
                         <li><a href="#" data-toggle="search"><i class="fe-icon-search"></i></a></li>
-                    </ul><a class="btn btn-gradient ml-3 d-none d-xl-inline-block" href="" target="_blank">Kirish</a>
+                    </ul><a class="btn btn-gradient ml-3 d-none d-xl-inline-block" href="{{ route('login') }}" target="_blank">Kirish</a>
+
+
                 </div>
             </div>
         </div>
@@ -111,7 +112,7 @@
 
 
 <!-- Footer-->
-<footer class="bg-dark pt-5" style="margin-top: -220px;">
+<footer class="bg-dark pt-5" >
     <!-- Subscription-->
     <div class="container pt-5 mt-5">
         <div class="pt-5 mt-5">
