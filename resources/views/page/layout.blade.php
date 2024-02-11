@@ -95,8 +95,18 @@
                     <ul class="navbar-buttons d-inline-block align-middle">
                         <li class="d-block d-lg-none"><a href="#mobile-menu" data-toggle="offcanvas"><i class="fe-icon-menu"></i></a></li>
                         <li><a href="#" data-toggle="search"><i class="fe-icon-search"></i></a></li>
-                    </ul><a class="btn btn-gradient ml-3 d-none d-xl-inline-block" href="{{ route('login') }}" target="_blank">Kirish</a>
 
+                    </ul>
+                    @guest
+                    <a class="btn btn-gradient ml-3 d-none d-xl-inline-block" href="{{ route('login') }}" target="_blank">Kirish</a>
+                    @else
+                        <ul class="navbar-buttons d-inline-block align-middle">
+                            <li class="d-block d-lg-none"><a href="#mobile-menu" data-toggle="offcanvas"><i class="fe-icon-menu"></i></a></li>
+                            <li>
+                                <a href="#" data-toggle="search"><i class="fe-icon-search"></i></a></li>
+                            <li class="d-block d-lg-none">{{Auth::user()->name}}</li>
+                        </ul>
+                    @endguest
 
                 </div>
             </div>
