@@ -19,11 +19,11 @@
     <meta name="msapplication-TileColor" content="#603cba">
     <meta name="theme-color" content="#ffffff">
     <!-- Vendor Styles including: Font Icons, Plugins, etc.-->
-    <link rel="stylesheet" media="screen" href="{{asset('html/elotcom.uz.io-main/css/vendor.min.css')}}">
+    <link rel="stylesheet" media="screen" href="{{asset('/public/html/elotcom.uz.io-main/css/vendor.min.css')}}">
     <!-- Main Theme Styles + Bootstrap-->
-    <link rel="stylesheet" media="screen" href="{{asset('html/elotcom.uz.io-main/css/theme.min.css')}}">
+    <link rel="stylesheet" media="screen" href="{{asset('/public/html/elotcom.uz.io-main/css/theme.min.css')}}">
     <!-- Modernizr-->
-    <script src="{{asset('html/elotcom.uz.io-main/js/modernizr.min.js')}}"></script>
+    <script src="{{asset('/public/html/elotcom.uz.io-main/js/modernizr.min.js')}}"></script>
 </head>
 <!-- Body-->
 <body>
@@ -32,8 +32,8 @@
     <div class="px-4 pb-4">
         <h6>Menu</h6>
         <div class="d-flex justify-content-between pt-2">
-            <div class="btn-group w-100 mr-2"><a class="btn btn-secondary btn-sm btn-block dropdown-toggle" href="#" data-toggle="dropdown"><img src="html/elotcom.uz.io-main/img/flags/en.png" alt="English"/>English</a>
-                <div class="dropdown-menu" style="  min-width: 150px;"><a class="dropdown-item" href="#"><img src="html/elotcom.uz.io-main/img/flags/fr.png" alt="Français"/>Français</a><a class="dropdown-item" href="#"><img src="html/elotcom.uz.io-main/img/flags/de.png" alt="Deutsch"/>Deutsch</a><a class="dropdown-item" href="#"><img src="html/elotcom.uz.io-main/img/flags/it.png" alt="Italiano"/>Italiano</a></div>
+            <div class="btn-group w-100 mr-2"><a class="btn btn-secondary btn-sm btn-block dropdown-toggle" href="#" data-toggle="dropdown"><img src="/public/html/elotcom.uz.io-main/img/flags/en.png" alt="English"/>English</a>
+                <div class="dropdown-menu" style="  min-width: 150px;"><a class="dropdown-item" href="#"><img src="/public/html/elotcom.uz.io-main/img/flags/fr.png" alt="Français"/>Français</a><a class="dropdown-item" href="#"><img src="/public/html/elotcom.uz.io-main/img/flags/de.png" alt="Deutsch"/>Deutsch</a><a class="dropdown-item" href="#"><img src="/public/html/elotcom.uz.io-main/img/flags/it.png" alt="Italiano"/>Italiano</a></div>
             </div><a class="btn btn-primary btn-sm btn-block" href="account-login.html"><i class="fe-icon-user"></i>&nbsp;Login</a>
         </div>
     </div>
@@ -42,7 +42,7 @@
         <div class="accordion mobile-menu" id="accordion-menu">
             <!-- Home-->
             <div class="card">
-                <div class="card-header"><a class="mobile-menu-link active" href="index.html">Bosh sahifa</a></div>
+                <div class="card-header"><a class="mobile-menu-link active" href="{{route('home')}}">Bosh sahifa</a></div>
             </div>
             <!-- Portfolio-->
             <div class="card">
@@ -66,7 +66,7 @@
 <!-- Navbar: Simple Ghost-->
 <header class="navbar-wrapper navbar-boxed navbar-simple-ghost">
     <div class="container-fluid">
-        <div class="d-table-cell align-middle pr-md-3"><a class="navbar-brand mr-1" href="index.html"><img src="html/elotcom.uz.io-main/img/logo/logo-light.png" alt="CreateX"/></a></div>
+        <div class="d-table-cell align-middle pr-md-3"><a class="navbar-brand mr-1" href="{{route('home')}}"><img src="/public/html/elotcom.uz.io-main/img/logo/logo-light.png" alt="CreateX"/></a></div>
         <div class="d-table-cell w-100 align-middle pl-md-3">
             <div class="navbar justify-content-end justify-content-lg-between">
                 <!-- Search-->
@@ -94,7 +94,6 @@
                 <div>
                     <ul class="navbar-buttons d-inline-block align-middle">
                         <li class="d-block d-lg-none"><a href="#mobile-menu" data-toggle="offcanvas"><i class="fe-icon-menu"></i></a></li>
-                        <li><a href="#" data-toggle="search"><i class="fe-icon-search"></i></a></li>
                     </ul><a class="btn btn-gradient ml-3 d-none d-xl-inline-block" href="{{ route('login') }}" target="_blank">Kirish</a>
 
 
@@ -147,7 +146,7 @@
 <!-- Backdrop-->
 <div class="site-backdrop"></div>
 <!-- JavaScript (jQuery) libraries, plugins and custom scripts-->
-<script src="{{asset('html/elotcom.uz.io-main/js/vendor.min.js')}}"></script>
-<script src="{{asset('html/elotcom.uz.io-main/js/theme.min.js')}}"></script>
+<script src="{{asset('/public/html/elotcom.uz.io-main/js/vendor.min.js')}}"></script>
+<script src="{{asset('/public/html/elotcom.uz.io-main/js/theme.min.js')}}"></script>
 </body>
 </html>
