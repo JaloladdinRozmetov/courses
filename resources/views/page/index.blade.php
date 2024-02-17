@@ -4,7 +4,7 @@
 
 @section('content')
     <!-- Hero-->
-    <section class="bg-dark bg-center bg-no-repeat py-5" style="background-image: url(/public/html/elotcom.uz.io-main/img/homepages/conference-landing/hero-bg.jpg);">
+    <section class="bg-dark bg-center bg-no-repeat py-5" style="background-image: url(/html/elotcom.uz.io-main/img/homepages/conference-landing/hero-bg.jpg);">
         <div class="container py-5 my-5 text-center text-sm-left">
             <div class="pt-sm-5 mt-sm-5">
                 <h1 class="display-3 text-white pt-md-5 pb-2"><span class="d-block" data-parallax="{&quot;y&quot; : -20}"><span class="d-none d-sm-inline-block bg-white text-dark text-center mr-2" data-parallax="{&quot;rotateZ&quot; : 20}" style="width: 80px;">K</span><span><span class='d-sm-none'>K</span>asbiy</span></span><span class="d-block" data-parallax="{&quot;y&quot; : 10}"><span class="d-none d-sm-inline-block bg-white text-dark text-center mr-2" data-parallax="{&quot;rotateZ&quot; : -20}" style="width: 80px;">I</span><span><span class='d-sm-none'>I</span>lmiy</span></span><span class="d-block" data-parallax="{&quot;y&quot; : 40}"><span class="d-none d-sm-inline-block bg-white text-dark text-center mr-2" data-parallax="{&quot;rotateZ&quot; : 20}" style="width: 80px;">K</span><span><span class='d-sm-none'>K</span>urslar</span></span></h1>
@@ -109,7 +109,7 @@
             <!-- Team member-->
             <div class="col-xl-4 col-md-6 mb-30">
                 <div class="team-card-style-4 d-sm-table w-100">
-                    <div class="team-thumb d-sm-table-cell align-middle"><img src="/public/html/elotcom.uz.io-main/img/team/style-3/05.jpg" alt="Team Member Picture"/>
+                    <div class="team-thumb d-sm-table-cell align-middle"><img src="/html/elotcom.uz.io-main/img/team/style-3/05.jpg" alt="Team Member Picture"/>
                     </div>
                     <div class="d-sm-table-cell align-middle pl-sm-4 text-center text-sm-left">
                         <h4 class="team-name">Ruzmetov Jaloladdin</h4><a class="team-contact-link" href="tel:+99897503644"><i class="fe-icon-phone"></i>&nbsp;+998975103644</a><a class="team-contact-link" href="mailto:jal99ol3bek@gmail.com"><i class="fe-icon-mail"></i>&nbsp;jal99ol3bek@gmail.com</a>
@@ -125,7 +125,7 @@
             <!-- Team member-->
             <div class="col-xl-4 col-md-6 mb-30">
                 <div class="team-card-style-4 d-sm-table w-100">
-                    <div class="team-thumb d-sm-table-cell align-middle"><img src="/public/html/elotcom.uz.io-main/img/team/style-3/05.jpg" alt="Team Member Picture"/>
+                    <div class="team-thumb d-sm-table-cell align-middle"><img src="/html/elotcom.uz.io-main/img/team/style-3/05.jpg" alt="Team Member Picture"/>
                     </div>
                     <div class="d-sm-table-cell align-middle pl-sm-4 text-center text-sm-left">
                         <h4 class="team-name">Ruzmetov Jaloladdin</h4><a class="team-contact-link" href="tel:+99897503644"><i class="fe-icon-phone"></i>&nbsp;+998975103644</a><a class="team-contact-link" href="mailto:jal99ol3bek@gmail.com"><i class="fe-icon-mail"></i>&nbsp;jal99ol3bek@gmail.com</a>
@@ -141,7 +141,7 @@
             <!-- Team member-->
             <div class="col-xl-4 col-md-6 mb-30">
                 <div class="team-card-style-4 d-sm-table w-100">
-                    <div class="team-thumb d-sm-table-cell align-middle"><img src="/public/html/elotcom.uz.io-main/img/team/style-3/05.jpg" alt="Team Member Picture"/>
+                    <div class="team-thumb d-sm-table-cell align-middle"><img src="/html/elotcom.uz.io-main/img/team/style-3/05.jpg" alt="Team Member Picture"/>
                     </div>
                     <div class="d-sm-table-cell align-middle pl-sm-4 text-center text-sm-left">
                         <h4 class="team-name">Ruzmetov Jaloladdin</h4><a class="team-contact-link" href="tel:+99897503644"><i class="fe-icon-phone"></i>&nbsp;+998975103644</a><a class="team-contact-link" href="mailto:jal99ol3bek@gmail.com"><i class="fe-icon-mail"></i>&nbsp;jal99ol3bek@gmail.com</a>
@@ -157,7 +157,7 @@
             <!-- Team member-->
             <div class="col-xl-4 col-md-6 mb-30">
                 <div class="team-card-style-4 d-sm-table w-100">
-                    <div class="team-thumb d-sm-table-cell align-middle"><img src="/public/html/elotcom.uz.io-main/img/team/style-3/05.jpg" alt="Team Member Picture"/>
+                    <div class="team-thumb d-sm-table-cell align-middle"><img src="/html/elotcom.uz.io-main/img/team/style-3/05.jpg" alt="Team Member Picture"/>
                     </div>
                     <div class="d-sm-table-cell align-middle pl-sm-4 text-center text-sm-left">
                         <h4 class="team-name">Ruzmetov Jaloladdin</h4><a class="team-contact-link" href="tel:+99897503644"><i class="fe-icon-phone"></i>&nbsp;+998975103644</a><a class="team-contact-link" href="mailto:jal99ol3bek@gmail.com"><i class="fe-icon-mail"></i>&nbsp;jal99ol3bek@gmail.com</a>
@@ -173,7 +173,7 @@
             <!-- Team member-->
             <div class="col-xl-4 col-md-6 mb-30">
                 <div class="team-card-style-4 d-sm-table w-100">
-                    <div class="team-thumb d-sm-table-cell align-middle"><img src="/public/html/elotcom.uz.io-main/img/team/style-3/05.jpg" alt="Team Member Picture"/>
+                    <div class="team-thumb d-sm-table-cell align-middle"><img src="/html/elotcom.uz.io-main/img/team/style-3/05.jpg" alt="Team Member Picture"/>
                     </div>
                     <div class="d-sm-table-cell align-middle pl-sm-4 text-center text-sm-left">
                         <h4 class="team-name">Ruzmetov Jaloladdin</h4><a class="team-contact-link" href="tel:+99897503644"><i class="fe-icon-phone"></i>&nbsp;+998975103644</a><a class="team-contact-link" href="mailto:jal99ol3bek@gmail.com"><i class="fe-icon-mail"></i>&nbsp;jal99ol3bek@gmail.com</a>
@@ -189,7 +189,7 @@
             <!-- Team member-->
             <div class="col-xl-4 col-md-6 mb-30">
                 <div class="team-card-style-4 d-sm-table w-100">
-                    <div class="team-thumb d-sm-table-cell align-middle"><img src="/public/html/elotcom.uz.io-main/img/team/style-3/05.jpg" alt="Team Member Picture"/>
+                    <div class="team-thumb d-sm-table-cell align-middle"><img src="/html/elotcom.uz.io-main/img/team/style-3/05.jpg" alt="Team Member Picture"/>
                     </div>
                     <div class="d-sm-table-cell align-middle pl-sm-4 text-center text-sm-left">
                         <h4 class="team-name">Ruzmetov Jaloladdin</h4><a class="team-contact-link" href="tel:+99897503644"><i class="fe-icon-phone"></i>&nbsp;+998975103644</a><a class="team-contact-link" href="mailto:jal99ol3bek@gmail.com"><i class="fe-icon-mail"></i>&nbsp;jal99ol3bek@gmail.com</a>
@@ -212,12 +212,12 @@
                 <div class="bg-white box-shadow px-3 px-sm-5 pt-4 pt-md-5 pb-4">
                     <h2 class="h3 text-center text-sm-left">Gallery</h2>
                     <div class="row pt-3">
-                        <div class="col-md-4 col-sm-6 mb-30"><a class="gallery-item" href="img/homepages/conference-landing/gallery/01.jpg" data-fancybox="gallery" data-options="{&quot;caption&quot;: &quot;Gallery Image Caption&quot;}"><img src="/public/html/elotcom.uz.io-main/img/homepages/conference-landing/gallery/th01.jpg" alt="Gallery Image"></a></div>
-                        <div class="col-md-4 col-sm-6 mb-30"><a class="gallery-item" href="img/homepages/conference-landing/gallery/02.jpg" data-fancybox="gallery" data-options="{&quot;caption&quot;: &quot;Gallery Image Caption&quot;}"><img src="/public/html/elotcom.uz.io-main/img/homepages/conference-landing/gallery/th02.jpg" alt="Gallery Image"></a></div>
-                        <div class="col-md-4 col-sm-6 mb-30"><a class="gallery-item" href="img/homepages/conference-landing/gallery/03.jpg" data-fancybox="gallery" data-options="{&quot;caption&quot;: &quot;Gallery Image Caption&quot;}"><img src="/public/html/elotcom.uz.io-main/img/homepages/conference-landing/gallery/th03.jpg" alt="Gallery Image"></a></div>
-                        <div class="col-md-4 col-sm-6 mb-30"><a class="gallery-item" href="img/homepages/conference-landing/gallery/04.jpg" data-fancybox="gallery" data-options="{&quot;caption&quot;: &quot;Gallery Image Caption&quot;}"><img src="/public/html/elotcom.uz.io-main/img/homepages/conference-landing/gallery/th04.jpg" alt="Gallery Image"></a></div>
-                        <div class="col-md-4 col-sm-6 mb-30"><a class="gallery-item" href="img/homepages/conference-landing/gallery/05.jpg" data-fancybox="gallery" data-options="{&quot;caption&quot;: &quot;Gallery Image Caption&quot;}"><img src="/public/html/elotcom.uz.io-main/img/homepages/conference-landing/gallery/th05.jpg" alt="Gallery Image"></a></div>
-                        <div class="col-md-4 col-sm-6 mb-30"><a class="gallery-item" href="img/homepages/conference-landing/gallery/06.jpg" data-fancybox="gallery" data-options="{&quot;caption&quot;: &quot;Gallery Image Caption&quot;}"><img src="/public/html/elotcom.uz.io-main/img/homepages/conference-landing/gallery/th06.jpg" alt="Gallery Image"></a></div>
+                        <div class="col-md-4 col-sm-6 mb-30"><a class="gallery-item" href="img/homepages/conference-landing/gallery/01.jpg" data-fancybox="gallery" data-options="{&quot;caption&quot;: &quot;Gallery Image Caption&quot;}"><img src="/html/elotcom.uz.io-main/img/homepages/conference-landing/gallery/th01.jpg" alt="Gallery Image"></a></div>
+                        <div class="col-md-4 col-sm-6 mb-30"><a class="gallery-item" href="img/homepages/conference-landing/gallery/02.jpg" data-fancybox="gallery" data-options="{&quot;caption&quot;: &quot;Gallery Image Caption&quot;}"><img src="/html/elotcom.uz.io-main/img/homepages/conference-landing/gallery/th02.jpg" alt="Gallery Image"></a></div>
+                        <div class="col-md-4 col-sm-6 mb-30"><a class="gallery-item" href="img/homepages/conference-landing/gallery/03.jpg" data-fancybox="gallery" data-options="{&quot;caption&quot;: &quot;Gallery Image Caption&quot;}"><img src="/html/elotcom.uz.io-main/img/homepages/conference-landing/gallery/th03.jpg" alt="Gallery Image"></a></div>
+                        <div class="col-md-4 col-sm-6 mb-30"><a class="gallery-item" href="img/homepages/conference-landing/gallery/04.jpg" data-fancybox="gallery" data-options="{&quot;caption&quot;: &quot;Gallery Image Caption&quot;}"><img src="/html/elotcom.uz.io-main/img/homepages/conference-landing/gallery/th04.jpg" alt="Gallery Image"></a></div>
+                        <div class="col-md-4 col-sm-6 mb-30"><a class="gallery-item" href="img/homepages/conference-landing/gallery/05.jpg" data-fancybox="gallery" data-options="{&quot;caption&quot;: &quot;Gallery Image Caption&quot;}"><img src="/html/elotcom.uz.io-main/img/homepages/conference-landing/gallery/th05.jpg" alt="Gallery Image"></a></div>
+                        <div class="col-md-4 col-sm-6 mb-30"><a class="gallery-item" href="img/homepages/conference-landing/gallery/06.jpg" data-fancybox="gallery" data-options="{&quot;caption&quot;: &quot;Gallery Image Caption&quot;}"><img src="/html/elotcom.uz.io-main/img/homepages/conference-landing/gallery/th06.jpg" alt="Gallery Image"></a></div>
                     </div>
                 </div>
             </div>
