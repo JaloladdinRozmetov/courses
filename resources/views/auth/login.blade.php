@@ -13,6 +13,7 @@
         <div class="row">
             <div class="col-md-6 pb-5">
                 <form class="needs-validation wizard" action="{{ route('login') }}" method="POST">
+                    @csrf
                     <div class="wizard-body pt-2">
                         <hr>
                         <h3 class="h5 pt-4 pb-2">Platformaga kirish</h3>

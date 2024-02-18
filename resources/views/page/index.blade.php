@@ -1,6 +1,6 @@
 @extends('page.layout')
 
-@section('title', 'About Us')
+@section('title', 'Asosiy')
 
 @section('content')
     <!-- Hero-->

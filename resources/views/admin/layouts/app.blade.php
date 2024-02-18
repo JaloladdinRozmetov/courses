@@ -27,54 +27,8 @@
 </head>
 <!-- Body-->
 <body>
-<!-- Off-Canvas Menu-->
-<div class="offcanvas-container is-triggered offcanvas-container-reverse" id="mobile-menu"><span class="offcanvas-close"><i class="fe-icon-x"></i></span>
-    <div class="px-4 pb-4">
-        <h6>Menu</h6>
-        <div class="d-flex justify-content-between pt-2">
-            <div class="btn-group w-100 mr-2"><a class="btn btn-secondary btn-sm btn-block dropdown-toggle" href="#" data-toggle="dropdown"><img src="html/elotcom.uz.io-main/img/flags/en.png" alt="English"/>English</a>
-                <div class="dropdown-menu" style="  min-width: 150px;"><a class="dropdown-item" href="{{route('home')}}"><img src="html/elotcom.uz.io-main/img/flags/fr.png" alt="Français"/>Français</a><a class="dropdown-item" href="#"><img src="html/elotcom.uz.io-main/img/flags/de.png" alt="Deutsch"/>Deutsch</a><a class="dropdown-item" href="#"><img src="html/elotcom.uz.io-main/img/flags/it.png" alt="Italiano"/>Italiano</a></div>
-            </div>
-            @guest()
-            <a class="btn btn-primary btn-sm btn-block" href="{{route('login')}}"><i class="fe-icon-user"></i>&nbsp;Kirish</a>
-            @else
-                <form method="post" action="{{ route('logout') }}">
-                    @csrf
-                    <button class="btn btn-gradient" type="submit">Chiqish</button>
-                </form>
-            @endguest
-        </div>
-    </div>
-    <div class="offcanvas-scrollable-area border-top" style="height:calc(100% - 235px); top: 144px;">
-        <!-- Mobile Menu-->
-        <div class="accordion mobile-menu" id="accordion-menu">
-            <!-- Home-->
-            <div class="card">
-                <div class="card-header"><a class="mobile-menu-link active" href="{{route('home')}}">Bosh sahifa</a></div>
-            </div>
-            <!-- Portfolio-->
-            <div class="card">
-                <div class="card-header"><a class="mobile-menu-link" href="#">Kasb kurslari</a></div>
-            </div>
-            <!-- Blog-->
-            <div class="card">
-                <div class="card-header"><a class="mobile-menu-link" href="#">Ilmiy Kurslar</a></div>
-            </div>
-            <!-- Shop-->
-            <div class="card">
-                <div class="card-header"><a class="mobile-menu-link" href="#">Vebinarlar</a></div>
-            </div>
-            <!-- Account-->
-            <div class="card">
-                <div class="card-header"><a class="mobile-menu-link" href="#">Biz bilan aloqa</a></div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Navbar: Simple Ghost-->
 <header class="navbar-wrapper navbar-boxed navbar-simple-ghost">
     <div class="container-fluid">
-        <div class="d-table-cell align-middle pr-md-3"><a class="navbar-brand mr-1" href="{{route('home')}}"><img src="html/elotcom.uz.io-main/img/logo/logo-light.png" alt="CreateX"/></a></div>
         <div class="d-table-cell w-100 align-middle pl-md-3">
             <div class="navbar justify-content-end justify-content-lg-between">
                 <!-- Search-->
@@ -84,39 +38,31 @@
                 <!-- Main Menu-->
                 <ul class="navbar-nav d-none d-lg-block">
                     <!-- Home-->
-                    <li class="nav-item mega-dropdown-toggle active"><a class="nav-link" href="{{route('home')}}">Bosh sahifa</a>
+                    <li class="nav-item mega-dropdown-toggle active"><a class="nav-link" href="{{route('home')}}">Saytga o'tish</a>
                     </li>
                     <!-- Portfolio-->
-                    <li class="nav-item dropdown-toggle"><a class="nav-link" href="#">Kasb kurslari</a>
+                    <li class="nav-item dropdown-toggle"><a class="nav-link" href="#">Kategoriyalar</a>
                     </li>
                     <!-- Blog-->
-                    <li class="nav-item mega-dropdown-toggle"><a class="nav-link" href="#">Ilmiy kurslar</a>
-                    </li>
-                    <!-- Shop-->
-                    <li class="nav-item mega-dropdown-toggle"><a class="nav-link" href="#">Vebinarlar</a>
-                    </li>
-                    <!-- Account-->
-                    <li class="nav-item dropdown-toggle"><a class="nav-link" href="#">Biz haqimizda</a>
-                    </li>
-                    <li class="nav-item dropdown-toggle"><a class="nav-link" href="#">Biz bilan aloqa</a>
+                    <li class="nav-item mega-dropdown-toggle"><a class="nav-link" href="#">Darslar</a>
                     </li>
                 </ul>
-                <ul class="navbar-buttons d-inline-block">
+                <div class="row">
+                    <div class="col-md-4">
+                        <ul class="navbar-buttons d-inline-block align-middle">
                             <li class="d-block d-lg-none"><a href="#mobile-menu" data-toggle="offcanvas"><i class="fe-icon-menu"></i></a></li>
                             <li><a href="#" data-toggle="search"><i class="fe-icon-search"></i></a></li>
                         </ul>
-                @guest
-                    <a class="btn btn-gradient d-none d-xl-inline-block" href="{{ route('login') }}" target="_blank">Kirish</a>
-                @else
-                    <form method="post" class="d-lg-block d-none" action="{{ route('logout') }}">
-                        @csrf
-                        <button class="btn btn-gradient" type="submit">Chiqish</button>
-                    </form>
-
-                    @if(auth()->user()->role === 'admin')
-                        <a class="btn btn-gradient d-none d-xl-inline-block" href="{{ route('admin.index') }}" target="_blank">Admin</a>
-                    @endif
-                @endguest
+                    </div>
+                    <div class="col-md-4">
+                        @guest
+                            <a class="btn btn-gradient ml-3 d-none d-xl-inline-block" href="{{ route('login') }}" target="_blank">Kirish</a>
+                        @else
+                            <form method="post" action="{{ route('logout') }}">
+                                @csrf
+                                <button class="btn btn-gradient" type="submit">Chiqish</button>
+                            </form>
+                        @endguest
                     </div>
                 </div>
             </div>
@@ -127,7 +73,7 @@
 
 
 <main>
-    @yield('content')
+    @yield('admin-content')
 </main>
 
 
