@@ -41,7 +41,7 @@
                     <li class="nav-item mega-dropdown-toggle active"><a class="nav-link" href="{{route('home')}}">Saytga o'tish</a>
                     </li>
                     <!-- Portfolio-->
-                    <li class="nav-item dropdown-toggle"><a class="nav-link" href="#">Kategoriyalar</a>
+                    <li class="nav-item dropdown-toggle"><a class="nav-link" href="{{route('categories.index')}}">Kategoriyalar</a>
                     </li>
                     <!-- Blog-->
                     <li class="nav-item mega-dropdown-toggle"><a class="nav-link" href="#">Darslar</a>

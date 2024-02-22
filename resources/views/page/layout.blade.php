@@ -1,3 +1,7 @@
+<?php
+$categories = \App\Models\Category::query()->where('parent_id',null)->get();
+?>
+
 <!DOCTYPE html>
 {{--<html  lang="{{ str_replace('_', '-', app()->getLocale()) }}">--}}
 <head>
@@ -86,16 +90,10 @@
                     <!-- Home-->
                     <li class="nav-item mega-dropdown-toggle active"><a class="nav-link" href="{{route('home')}}">Bosh sahifa</a>
                     </li>
-                    <!-- Portfolio-->
-                    <li class="nav-item dropdown-toggle"><a class="nav-link" href="#">Kasb kurslari</a>
-                    </li>
-                    <!-- Blog-->
-                    <li class="nav-item mega-dropdown-toggle"><a class="nav-link" href="#">Ilmiy kurslar</a>
-                    </li>
-                    <!-- Shop-->
-                    <li class="nav-item mega-dropdown-toggle"><a class="nav-link" href="#">Vebinarlar</a>
-                    </li>
-                    <!-- Account-->
+                    @foreach($categories as $category)
+                        <li class="nav-item dropdown-toggle"><a class="nav-link" href="{{route('category',['id'=>$category->id])}}">{{$category->name}}</a>
+                        </li>
+                    @endforeach
                     <li class="nav-item dropdown-toggle"><a class="nav-link" href="#">Biz haqimizda</a>
                     </li>
                     <li class="nav-item dropdown-toggle"><a class="nav-link" href="#">Biz bilan aloqa</a>
