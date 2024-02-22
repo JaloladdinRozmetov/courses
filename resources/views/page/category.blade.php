@@ -21,7 +21,7 @@
         <div class="d-sm-flex justify-content-between align-items-center text-center text-sm-left">
             <form class="form-inline py-2">
                 @foreach($categories as $item)
-                    <button class="btn btn-secondary btn-sm my-2 mx-auto mx-sm-0" type="submit">{{$item->name}}</button>
+                    <button class="btn btn-gradient mr-3 mb-3" type="submit">{{$item->name}}</button>
                 @endforeach
             </form>
         </div>
