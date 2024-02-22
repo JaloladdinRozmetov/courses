@@ -78,7 +78,7 @@ $categories = \App\Models\Category::query()->where('parent_id',null)->get();
 <!-- Navbar: Simple Ghost-->
 <header class="navbar-wrapper navbar-boxed navbar-simple-ghost">
     <div class="container-fluid">
-        <div class="d-table-cell align-middle pr-md-3"><a class="navbar-brand mr-1" href="{{route('home')}}"><img src="html/elotcom.uz.io-main/img/logo/logo-light.png" alt="CreateX"/></a></div>
+        <div class="d-table-cell align-middle pr-md-3"><a class="navbar-brand mr-1" href="{{route('home')}}"><img src="/html/elotcom.uz.io-main/img/logo/logo-light.png" alt="CreateX"/></a></div>
         <div class="d-table-cell w-100 align-middle pl-md-3">
             <div class="navbar justify-content-end justify-content-lg-between">
                 <!-- Search-->
