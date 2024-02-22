@@ -44,7 +44,7 @@
                     <li class="nav-item dropdown-toggle"><a class="nav-link" href="{{route('categories.index')}}">Kategoriyalar</a>
                     </li>
                     <!-- Blog-->
-                    <li class="nav-item mega-dropdown-toggle"><a class="nav-link" href="#">Darslar</a>
+                    <li class="nav-item mega-dropdown-toggle"><a class="nav-link" href="{{route('courses.index')}}">Darslar</a>
                     </li>
                 </ul>
                 <div class="row">

@@ -27,4 +27,25 @@
         </div>
     </div>
 
+
+        <div class="offcanvas-wrapper">
+            <div class="container">
+                <div class="row pb-5 mb-4">
+                    <div class="col-xl-4 col-sm-6 mb-30 pb-2">
+                        @foreach($courses as $course)
+                            <div class="card blog-card">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                {!! $course->youtube_link !!}
+                            </div>
+                            <div class="card-body">
+                                <h5 class="post-title"><a href="{{$course->youtube_link}}">{{$course->title}}</a></h5>
+                                <p class="text-muted">{{$course->description}}.</p><a class="tag-link" href="#">Management</a>
+                            </div>
+                        </div>
+                        @endforeach
+                    </div>
+            </div>
+        </div>
+    </div>
+
 @endsection
