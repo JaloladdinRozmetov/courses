@@ -31,8 +31,8 @@
         <div class="offcanvas-wrapper">
             <div class="container">
                 <div class="row pb-5 mb-4">
+                    @foreach($courses as $course)
                     <div class="col-xl-4 col-sm-6 mb-30 pb-2">
-                        @foreach($courses as $course)
                             <div class="card blog-card">
                             <div class="embed-responsive embed-responsive-16by9">
                                 {!! $course->youtube_link !!}
@@ -42,8 +42,9 @@
                                 <p class="text-muted">{{$course->description}}.</p><a class="tag-link" href="#">Management</a>
                             </div>
                         </div>
-                        @endforeach
                     </div>
+                    @endforeach
+
             </div>
         </div>
     </div>
