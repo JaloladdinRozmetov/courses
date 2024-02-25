@@ -1,5 +1,6 @@
 <?php
 $categories = \App\Models\Category::query()->where('parent_id',null)->get();
+$lastSegment = request()->segment(count(request()->segments()));
 ?>
 
 <!DOCTYPE html>
@@ -88,10 +89,10 @@ $categories = \App\Models\Category::query()->where('parent_id',null)->get();
                 <!-- Main Menu-->
                 <ul class="navbar-nav d-none d-lg-block">
                     <!-- Home-->
-                    <li class="nav-item mega-dropdown-toggle active"><a class="nav-link" href="{{route('home')}}">Bosh sahifa</a>
+                    <li class="nav-item mega-dropdown-toggle @if($lastSegment == null) active @endif"><a class="nav-link" href="{{route('home')}}">Bosh sahifa</a>
                     </li>
                     @foreach($categories as $category)
-                        <li class="nav-item dropdown-toggle"><a class="nav-link" href="{{route('category',['id'=>$category->id])}}">{{$category->name}}</a>
+                        <li class="nav-item dropdown-toggle @if($lastSegment == $category->id)active @endif"><a class="nav-link" href="{{route('category',['id'=>$category->id])}}">{{$category->name}}</a>
                         </li>
                     @endforeach
                     <li class="nav-item dropdown-toggle"><a class="nav-link" href="#">Biz haqimizda</a>
