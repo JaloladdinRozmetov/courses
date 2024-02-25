@@ -1,3 +1,6 @@
+<?php
+$lastSegment = request()->segment(count(request()->segments()))
+?>
 <!DOCTYPE html>
 {{--<html  lang="{{ str_replace('_', '-', app()->getLocale()) }}">--}}
 <head>
@@ -38,13 +41,13 @@
                 <!-- Main Menu-->
                 <ul class="navbar-nav d-none d-lg-block">
                     <!-- Home-->
-                    <li class="nav-item mega-dropdown-toggle active"><a class="nav-link" href="{{route('home')}}">Saytga o'tish</a>
+                    <li class="nav-item mega-dropdown-toggle"><a class="nav-link" href="{{route('home')}}">Saytga o'tish</a>
                     </li>
                     <!-- Portfolio-->
-                    <li class="nav-item dropdown-toggle"><a class="nav-link" href="{{route('categories.index')}}">Kategoriyalar</a>
+                    <li class="nav-item dropdown-toggle @if($lastSegment == "categories") active @endif"><a class="nav-link" href="{{route('categories.index')}}">Kategoriyalar</a>
                     </li>
                     <!-- Blog-->
-                    <li class="nav-item mega-dropdown-toggle"><a class="nav-link" href="{{route('courses.index')}}">Darslar</a>
+                    <li class="nav-item mega-dropdown-toggle @if($lastSegment == "courses") active @endif"><a class="nav-link" href="{{route('courses.index')}}">Darslar</a>
                     </li>
                 </ul>
                 <div class="row">
